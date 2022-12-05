@@ -1,3 +1,40 @@
+/*colors*/
+/*fonts*/
+/*padding/margin*/
+/*nav*/
+/*body*/
+/*card nosotros*/
+/*background image*/
+/*bg index*/
+/*bg nosotros*/
+/*bg contacto*/
+/*images dj*/
+/*img dj hover*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.color {
+  background: #bdb76b;
+}
+.color .background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fuegos\ artificiales.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+.color .background-image .h1__hero {
+  font-family: "libre baskerville", sans-serif;
+  font-size: 260%;
+  padding-bottom: 15px;
+}
+
+.p__hero {
+  font-family: "fuzzy bubbles", sans-serif;
+  font-size: 130%;
+  color: aliceblue;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.color {
+  background: $body-color-index;
+  .background-image {
+    background-image: $bg-image-index;
+    background-size: $bg-size-image-index;
+    height: $height-image-index;
+    width: $width-image-index;
+    .h1__hero {
+      font-family: $ff-libre;
+      font-size: $fs-hero;
+      padding-bottom: $pb-hero;
+    }
+  }
+}
+
+.p__hero {
+  font-family: $ff-p-hero;
+  font-size: $fs-p-hero;
+  color: $color-p-hero;
+}
