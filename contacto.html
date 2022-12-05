@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Libre+Baskerville:ital@0;1&family=Red+Hat+Display&family=Trispace:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../imagenes/shortcut icon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg color__nav-footer">
+        <div class="container">
+          <a href="index.html"
+            ><img src="../imagenes/shortcut icon.png" alt="logo de la empresa"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center nav-transform"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center nav-transform"
+                  href="nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="servicios.html"
+                  class="nav-link text-center nav-transform"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center nav-transform"
+                  href="galeria.html"
+                  >Galería</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="contacto.html"
+                  class="nav-link active text-center nav-transform"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="d-flex color">
+      <div class="container">
+        <div class="p-2 text-center py-4">
+          <h1 class="fs-1 text-dark h1__contacto">Contacto</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-light text-center p-section">
+      <div class="color">
+        <div class="container-fluid">
+          <div
+            class="contacto__hero d-flex align-items-center justify-content-center"
+          >
+            <form action="#">
+              <div>
+                <div class="container pb-5">
+                  <div class="row g-3 p-3 justify-content-center">
+                    <div class="col-sm-5 pb-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff__contacto"
+                        for="last name"
+                        >Nombre</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nombre"
+                        aria-label="Nombre"
+                      />
+                    </div>
+                    <div class="col-sm-5 pb-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff__contacto"
+                        for="last name"
+                        >Apellido</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Apellido"
+                        aria-label="Apellido"
+                      />
+                    </div>
+                    <div class="row col-sm-10 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff__contacto"
+                        for="inputEmail4"
+                        >Correo Electrónico</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="Correo Electrónico"
+                        aria-label="Correo Electrónico"
+                      />
+                    </div>
+                    <div class="row col-sm-10 pt-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff__contacto"
+                        for="consulta"
+                        >Consulta</label
+                      >
+                      <textarea
+                        name="consulta"
+                        class="form-control"
+                        cols="30"
+                        rows="10"
+                        placeholder="Consulta"
+                        aria-label="Consulta"
+                      ></textarea>
+                    </div>
+
+                    <div
+                      class="form-check d-flex justify-content-center text-center pt-4"
+                    >
+                      <input
+                        class="form-check-input pe-3 me-2"
+                        type="checkbox"
+                      />
+                      <label
+                        class="form-check-label text-light ff__contacto"
+                        for="flexCheckDefault"
+                      >
+                        Estoy satisfecho/a con la atención brindada durante mi
+                        navegación por el sitio web.
+                      </label>
+                    </div>
+                    <div class="d-flex justify-content-center gap-4 pt-3">
+                      <input type="submit" class="btn-check" id="btn-check-2" />
+                      <label
+                        class="btn btn-dark ff-contacto btn__hover"
+                        for="btn-check-2"
+                        >Enviar</label
+                      >
+                      <input type="reset" class="btn-check" id="btn-check-2" />
+                      <label
+                        class="btn btn-dark ff-contacto btn__hover"
+                        for="btn-check-2"
+                        >Reiniciar</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="d-flex color__nav-footer p-4">
+      <div class="container d-flex justify-content-center">
+        <a href="https://ig.me/m/diamonddaisy__eventos" target="_blank">
+          <img
+            class="px-3"
+            src="../imagenes/iconmonstr-instagram-11-48.png"
+            alt="icono de instagram"
+          />
+        </a>
+        <a href="https://wa.me/3364219040" target="_blank">
+          <img
+            class="px-3"
+            src="../imagenes/logo whatsApp.png"
+            alt="icono de WhatsApp"
+          />
+        </a>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
