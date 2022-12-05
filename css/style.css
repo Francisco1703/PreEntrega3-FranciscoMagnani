@@ -126,4 +126,43 @@
   background-color: #7d22c4;
 }
 
+.ff__title {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.ff__subtitle {
+  font-family: "trispace", sans-serif;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.ff__link {
+  font-family: "trispace", sans-serif;
+}
+.ff__link:hover {
+  transform: scale(0.9);
+  color: aquamarine;
+}
+
+.img__transform:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.img__dj {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px lightgreen solid;
+}
+.img__dj:hover {
+  border-radius: 100px;
+  transform: scale(0.9);
+  cursor: pointer;
+  box-shadow: 0 0 30px red;
+}
+
 /*# sourceMappingURL=style.css.map */
