@@ -1,0 +1,9 @@
+.img__galeria {
+  @include sizes(100%, 300px);
+  &:hover {
+    @include transform(scale(0.9));
+    cursor: $cursor;
+    opacity: $opacity;
+    box-shadow: $box-shadow-galeria;
+  }
+}

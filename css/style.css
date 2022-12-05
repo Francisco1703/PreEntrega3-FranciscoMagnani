@@ -95,4 +95,15 @@
   max-width: 100%;
 }
 
+.img__galeria {
+  height: 300px;
+  width: 100%;
+}
+.img__galeria:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  opacity: 80%;
+  box-shadow: 0 0 30px #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
