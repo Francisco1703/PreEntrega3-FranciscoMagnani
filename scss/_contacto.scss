@@ -1,0 +1,19 @@
+.h1__contacto {
+  font-family: $ff-libre;
+  box-shadow: $box-shadow-contacto;
+}
+
+.contacto__hero {
+  background-image: $bg-img-contacto;
+  background-position: $bg-position;
+  background-repeat: $bg-repeat-image-index;
+  background-size: $bg-size-image-index;
+}
+
+.ff__contacto {
+  font-family: $ff-libre;
+}
+
+.btn__hover {
+  background-color: $nav-transform;
+}
