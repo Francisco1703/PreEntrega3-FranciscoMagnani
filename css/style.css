@@ -37,4 +37,40 @@
   color: aliceblue;
 }
 
+.bg__nosotros {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/nosotros.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__nosotros .nosotros__h1 {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.nosotros__font {
+  font-family: "libre baskerville", sans-serif;
+  line-height: 200%;
+}
+
+.h1__integrantes {
+  font-family: "libre baskerville", sans-serif;
+  color: #7d22c4;
+  text-shadow: 0 0 50px #7d22c4;
+}
+
+.bg__cards {
+  background-color: #7d22c4;
+}
+
+.card__img {
+  box-shadow: 0 0 60px #000000;
+}
+
+.h3__cards {
+  font-family: "libre baskerville", sans-serif;
+}
+.h3__cards .p__cards {
+  font-family: "trispace", sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
