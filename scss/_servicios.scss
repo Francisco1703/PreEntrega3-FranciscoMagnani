@@ -1,0 +1,21 @@
+.bg__servicios {
+  background-color: $bg-color-servicios;
+  .h1__servicios {
+    font-family: $ff-libre;
+  }
+  .p__servicios {
+    font-family: $ff-trispace;
+  }
+}
+
+.ubicacion__color {
+  background-color: $bg-black;
+  .h2__ubicacion {
+    background-color: $bg-black;
+    font-family: $ff-libre;
+  }
+}
+
+.iframe__servicios {
+  max-width: $max-width;
+}
