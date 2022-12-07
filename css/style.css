@@ -51,6 +51,9 @@
   font-family: "libre baskerville", sans-serif;
   line-height: 200%;
 }
+.nosotros__font .fs__nosotros {
+  font-size: 300%;
+}
 
 .h1__integrantes {
   font-family: "libre baskerville", sans-serif;

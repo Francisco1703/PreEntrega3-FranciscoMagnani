@@ -11,6 +11,9 @@
 .nosotros__font {
   font-family: $ff-libre;
   line-height: $line-height-p-nosotros;
+  .fs__nosotros {
+    font-size: $fs-nosotros;
+  }
 }
 
 .h1__integrantes {
