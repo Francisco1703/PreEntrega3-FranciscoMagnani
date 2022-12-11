@@ -37,6 +37,11 @@
   color: aliceblue;
 }
 
+.img__index {
+  height: 300px;
+  width: 100%;
+}
+
 .bg__nosotros {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/nosotros.png);
   background-position: center;
@@ -86,6 +91,14 @@
   font-family: "trispace", sans-serif;
 }
 
+.img__servicios {
+  height: 300px;
+  width: 100%;
+}
+.img__servicios:hover {
+  transform: scale(0.9);
+}
+
 .ubicacion__color {
   background-color: #000000;
 }
@@ -98,6 +111,15 @@
   max-width: 100%;
 }
 
+.p__galeria {
+  font-family: "fuzzy bubbles", sans-serif;
+  font-size: 260%;
+}
+
+.bg__galeria {
+  background: -webkit-linear-gradient(top, red, blueviolet, aqua);
+}
+
 .img__galeria {
   height: 300px;
   width: 100%;
@@ -106,7 +128,7 @@
   transform: scale(0.9);
   cursor: pointer;
   opacity: 80%;
-  box-shadow: 0 0 30px #fff;
+  box-shadow: 0 0 60px aquamarine;
 }
 
 .h1__contacto {
@@ -115,7 +137,7 @@
 }
 
 .contacto__hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/contacto\ hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/bg\ contacto.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

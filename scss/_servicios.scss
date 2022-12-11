@@ -8,6 +8,13 @@
   }
 }
 
+.img__servicios {
+  @include sizes($width, $height);
+  &:hover {
+    @include transform($img-transform-hover);
+  }
+}
+
 .ubicacion__color {
   background-color: $bg-black;
   .h2__ubicacion {

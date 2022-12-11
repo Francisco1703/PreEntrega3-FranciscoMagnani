@@ -18,3 +18,7 @@
   font-size: $fs-p-hero;
   color: $color-p-hero;
 }
+
+.img__index {
+  @include sizes($width, $height);
+}

@@ -47,6 +47,7 @@ $box-shadow-contacto: 0 0 30px #000000;
 /*bg index*/
 $bg-image-index: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
   url(../imagenes/fuegos\ artificiales.jpg);
+$linear-gradient-galeria: -webkit-linear-gradient(top, red, blueviolet, aqua);
 $bg-size-image-index: cover;
 $height-image-index: 400px;
 $width-image-index: 100%;
@@ -59,7 +60,7 @@ $bg-position: center;
 /*bg contacto*/
 
 $bg-img-contacto: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-  url(../imagenes/contacto\ hero.jpg);
+  url(../imagenes/bg\ contacto.jpg);
 
 /*images dj*/
 
@@ -74,6 +75,6 @@ $box-shadow-img-dj-hover: 0 0 30px red;
 $img-dj-transform-hover: scale(1.1);
 $cursor: pointer;
 $opacity: 80%;
-$box-shadow-galeria: 0 0 30px #fff;
+$box-shadow-galeria: 0 0 60px aquamarine;
 
 $transition-hover: all 0.6s;
