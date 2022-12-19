@@ -10,6 +10,7 @@
 
 .img__servicios {
   max-width: $max-width;
+  width: $width;
   &:hover {
     @include transform($img-transform-hover);
   }
