@@ -1,0 +1,38 @@
+.bg__nosotros {
+  background-image: $bg-image-nosotros;
+  background-position: $bg-position;
+  background-repeat: $bg-repeat-image-index;
+  background-size: $bg-size-image-index;
+  .nosotros__h1 {
+    font-family: $ff-libre;
+  }
+}
+
+.nosotros__font {
+  font-family: $ff-libre;
+  line-height: $line-height-p-nosotros;
+  .fs__nosotros {
+    font-size: $fs-nosotros;
+  }
+}
+
+.h1__integrantes {
+  font-family: $ff-libre;
+  color: $nav-transform;
+  text-shadow: $text-shadow-blueviolet;
+}
+
+.bg__cards {
+  background-color: $nav-transform;
+}
+
+.card__img {
+  box-shadow: $box-shadow-image-card;
+}
+
+.h3__cards {
+  font-family: $ff-libre;
+  .p__cards {
+    font-family: $ff-trispace;
+  }
+}

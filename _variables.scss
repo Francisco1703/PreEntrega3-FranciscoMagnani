@@ -1,0 +1,80 @@
+/*colors*/
+
+$primary-color: #149df3;
+$color-p-hero: aliceblue;
+$color-p-hero-hover: aquamarine;
+$bg-color-servicios: blanchedalmond;
+$contacto-color: rgba(13, 202, 240, 255);
+
+/*fonts*/
+
+$ff-libre: "libre baskerville", sans-serif;
+$fs-hero: 260%;
+$ff-p-hero: "fuzzy bubbles", sans-serif;
+$fs-p-hero: 130%;
+$ff-trispace: "trispace", sans-serif;
+$ff-menu-transform-hover: scale(0.9) aquamarine;
+$fs-nosotros: 300%;
+
+/*padding/margin*/
+
+$pb-hero: 15px;
+$line-height-p-nosotros: 200%;
+$max-width: 100%;
+$width: 100%;
+$height: 300px;
+
+/*nav*/
+
+$nav-footer-color: #9c9862;
+$nav-transform: #7d22c4;
+$nav-list: none;
+
+/*body*/
+
+$body-color-index: #bdb76b;
+$body-color-servicios: #ffebcd;
+
+/*card nosotros*/
+
+$nosotros-card: #7d22c4;
+$box-shadow-image-card: 0 0 60px #000000;
+$text-shadow-blueviolet: 0 0 50px #7d22c4;
+$bg-black: #000000;
+$box-shadow-contacto: 0 0 30px #000000;
+
+/*background image*/
+/*bg index*/
+$bg-image-index: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+  url(../imagenes/fuegos\ artificiales.jpg);
+$linear-gradient-galeria: -webkit-linear-gradient(top, red, blueviolet, aqua);
+$bg-size-image-index: cover;
+$height-image-index: 400px;
+$width-image-index: 100%;
+$bg-repeat-image-index: no-repeat;
+/*bg nosotros*/
+$bg-image-nosotros: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+  url(../imagenes/nosotros.png);
+$bg-position: center;
+
+/*bg contacto*/
+
+$bg-img-contacto: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+  url(../imagenes/bg\ contacto.jpg);
+
+/*images dj*/
+
+$border: 2px lightgreen solid;
+$border-radius-dj: 20px;
+
+/*img dj hover*/
+$border-radius-dj-hover: 100px;
+$img-transform-hover: scale(0.9);
+$box-shadow-img-dj-hover: 0 0 30px red;
+
+$img-dj-transform-hover: scale(1.1);
+$cursor: pointer;
+$opacity: 80%;
+$box-shadow-galeria: 0 0 60px aquamarine;
+
+$transition-hover: all 0.6s;

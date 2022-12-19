@@ -1,0 +1,17 @@
+.img__transform:hover {
+  transform: $img-dj-transform-hover;
+  cursor: $cursor;
+  opacity: $opacity;
+}
+
+.img__dj {
+  @include sizes(100%, 300px);
+  border-radius: $border-radius-dj;
+  border: $border;
+  &:hover {
+    border-radius: $border-radius-dj-hover;
+    transform: $img-transform-hover;
+    cursor: $cursor;
+    box-shadow: $box-shadow-img-dj-hover;
+  }
+}

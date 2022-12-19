@@ -1,0 +1,9 @@
+.color__nav-footer {
+  background: $nav-footer-color;
+  .nav-transform:hover {
+    color: $nav-transform;
+    background-position: $bg-position;
+    background-repeat: $bg-repeat-image-index;
+    transition: $transition-hover;
+  }
+}

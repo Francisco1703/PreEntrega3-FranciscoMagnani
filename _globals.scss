@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin sizes($width, $height) {
+  height: $height;
+  width: $width;
+}
+
+@mixin transform($img-transform-hover) {
+  transform: $img-transform-hover;
+}

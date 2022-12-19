@@ -1,0 +1,19 @@
+.ff__title {
+  font-family: $ff-libre;
+}
+
+.ff__subtitle {
+  font-family: $ff-trispace;
+}
+
+.nav__list {
+  list-style: $nav-list;
+}
+
+.ff__link {
+  font-family: $ff-trispace;
+  &:hover {
+    transform: $img-transform-hover;
+    color: $color-p-hero-hover;
+  }
+}
