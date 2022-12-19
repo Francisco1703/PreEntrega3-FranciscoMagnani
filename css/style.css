@@ -91,10 +91,6 @@
   font-family: "trispace", sans-serif;
 }
 
-.img__servicios {
-  height: 300px;
-  width: 100%;
-}
 .img__servicios:hover {
   transform: scale(0.9);
 }
