@@ -93,6 +93,7 @@
 
 .img__servicios {
   max-width: 100%;
+  width: 100%;
 }
 .img__servicios:hover {
   transform: scale(0.9);
